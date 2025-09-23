@@ -19,6 +19,9 @@ body {
     color: #3a3a3a;
     font-family: lato-thin, sans-serif;
 }
+h1 {
+    font-family: lat0-thin, sans-serif;
+}
 
 header {
     background-color: lightcoral;

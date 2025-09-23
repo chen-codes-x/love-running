@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 /*wildcard selector overrides browser default style settings*/
 * {
     padding: 0;
@@ -11,6 +17,7 @@ body {
     flex-direction: column;
     /*generic project styles*/
     color: #3a3a3a;
+    font-family: lato-thin, sans-serif;
 }
 
 header {
@@ -18,6 +25,7 @@ header {
 }
 main {
     background-color: lightblue;
+    /*makes main take up all available space to push footer to bottom*/
     flex: 1 0 auto;
 }
 

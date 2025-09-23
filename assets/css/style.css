@@ -44,6 +44,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 3px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -71,6 +74,10 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 3px #3a3a3a;
     display: none;
+}
+/*nav toggle*/
+#nav-toggle:checked ~ nav {
+    display: block;
 }
 
 main {

@@ -74,18 +74,45 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 3px #3a3a3a;
     display: none;
+    top: 100%;
 }
 /*nav toggle*/
 #nav-toggle:checked ~ nav {
     display: block;
+}
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 main {
     background-color: lightblue;
     /*makes main take up all available space to push footer to bottom*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 footer {
     background-color: orange;
+}
+
+/*media queries*/
+@media screen and (min-width: 768px) {
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
 }

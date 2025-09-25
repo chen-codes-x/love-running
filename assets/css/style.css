@@ -153,6 +153,13 @@ main {
     align-items: center;
     justify-content: center;
 }
+/*dublin image*/
+#times {
+    background: url("../images/dublin-image.webp") no-repeat center / cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*footer*/
 #social-networks {
     text-align: center;
@@ -167,23 +174,6 @@ main {
     color: #3a3a3a;
 }
 
-/*reasons section*/
-#benefits-physical,
-#benefits-mental {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-#benefits-physical > div,
-#benefits-mental > div {
-    width: 75%;
-}
-
-#benefits-mental > div {
-    text-align: end;
-    align-self: flex-end;
-}
 /*media queries tablets and larger*/
 @media screen and (min-width: 768px) {
     /*Header*/
@@ -220,6 +210,24 @@ main {
         width: 300px;
         right: 50px;
     }
+
+    /*reasons section*/
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-physical > div,
+    #benefits-mental > div {
+        width: 75%;
+    }
+
+    #benefits-mental > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /*large devices - laptops and desktops*/
@@ -229,6 +237,7 @@ main {
     }
 }
 
+/* extra large devices - large desktops*/
 @media screen and (min-width: 1200px) {
     /* Reasons section */
     #benefits {

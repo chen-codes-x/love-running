@@ -179,6 +179,17 @@ main {
     /*ovverides color of text in times section*/
     color: #fafafa;
 }
+
+/*Gallery Page*/
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /*footer*/
 #social-networks {
     text-align: center;
